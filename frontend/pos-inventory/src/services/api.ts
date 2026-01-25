@@ -1,7 +1,7 @@
 import { Product, Sale, CreateSaleRequest, TodaySalesSummary } from '../types';
 import { DashboardSummary, SalesTrend, CategoryDistribution, RecentSale, LowStockProduct } from '../types';
 
-const API_BASE_URL = 'http://localhost:3001/api';
+const API_BASE_URL = 'https://abra-store-project.onrender.com/api';
 
 class ApiService {
   private getAuthHeaders(): HeadersInit {

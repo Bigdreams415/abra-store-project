@@ -27,7 +27,7 @@ interface SyncState {
   error: string | null;
 }
 
-const API_BASE_URL = 'http://localhost:3001/api';  
+const API_BASE_URL = 'https://abra-store-project.onrender.com/api';  
 const CLOUD_SYNC_URL = 'not longer applicable';  
 
 const DesktopHeader: React.FC = () => {

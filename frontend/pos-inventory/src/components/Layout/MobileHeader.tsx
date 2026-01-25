@@ -21,7 +21,7 @@ const MobileHeader: React.FC<MobileHeaderProps> = ({ onMenuToggle }) => {
 
   const fetchCurrentStore = async () => {
     try {
-      const response = await fetch('http://localhost:3001/api/pharmacy/current');
+      const response = await fetch('https://abra-store-project.onrender.com/api/pharmacy/current');
       if (response.ok) {
         const result = await response.json();
         if (result.success) {
