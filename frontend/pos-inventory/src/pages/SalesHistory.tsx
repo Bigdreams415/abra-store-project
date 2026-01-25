@@ -4,14 +4,15 @@ import { Sale } from '../types';
 import { useSales } from '../hooks/useSales';
 
 const SalesHistory: React.FC = () => {
-  const { getSales, getAllSales, getSalesByDate } = useSales();
+  const { getAllSales, getSalesByDate } = useSales();
 
   const [sales, setSales] = useState<Sale[]>([]);
   const [selectedSale, setSelectedSale] = useState<Sale | null>(null);
   const [dateFilter, setDateFilter] = useState<string>('');
   const [showCalendar, setShowCalendar] = useState<boolean>(false);
-  const [filteredSales, setFilteredSales] = useState<Sale[]>([]);  
-  const [isFiltering, setIsFiltering] = useState<boolean>(false);  
+  const [filteredSales, setFilteredSales] = useState<Sale[]>([]);
+  //eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const [isFiltering, setIsFiltering] = useState<boolean>(false);
 
   const loadSales = async () => {
     try {
@@ -61,7 +62,7 @@ const SalesHistory: React.FC = () => {
 
     fetchSalesForDate();
   }
-}, [dateFilter, sales]);
+}, [dateFilter, sales, getSalesByDate, setIsFiltering]);
 
   // Enhanced calendar functions
   const getCalendarDays = () => {
