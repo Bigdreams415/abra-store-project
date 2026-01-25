@@ -98,7 +98,7 @@ app.use(helmet({
 app.use((req, res, next) => {
   const origin = req.headers.origin;
   const allowedOrigins = [
-    'https://sales-inventory-system-fawn.vercel.app',
+    'https://abra-store-project.vercel.app',
     'http://localhost:3000',
     'http://localhost:3001'
   ];
