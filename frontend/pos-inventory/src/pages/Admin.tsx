@@ -215,7 +215,7 @@ const Admin: React.FC = () => {
             <div className="flex flex-col sm:flex-row items-center justify-between space-y-3 sm:space-y-0">
               <div className="flex items-center space-x-3">
                 <div className="w-10 h-10 rounded-lg flex items-center justify-center bg-transparent">
-                  <span className="font-bold text-gray-900">AB</span>
+                  <span className="font-bold text-gray-900">ST</span>
                 </div>
                 <div>
                   <p className="text-sm font-medium text-gray-700">Stop to Shop Admin Portal</p>
@@ -334,7 +334,7 @@ const Admin: React.FC = () => {
           <div className="flex flex-col sm:flex-row items-center justify-between space-y-3 sm:space-y-0">
             <div className="flex items-center space-x-3">
               <div className="w-8 h-8 rounded-lg flex items-center justify-center bg-transparent">
-                <span className="font-bold text-sm bg-gradient-to-r from-green-600 to-emerald-500 bg-clip-text text-transparent">AB</span>
+                <span className="font-bold text-sm bg-gradient-to-r from-green-600 to-emerald-500 bg-clip-text text-transparent">ST</span>
               </div>
               <p className="text-sm font-medium text-gray-700">
                 Stop to Shop System

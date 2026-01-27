@@ -97,7 +97,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activePage, setActivePage, onMobileIt
             <p className="text-xs text-gray-500">© 2026 • v1.0.0</p>
           </div>
           <div className="w-10 h-10 rounded-lg flex items-center justify-center bg-transparent">
-            <span className="font-bold bg-gradient-to-r from-green-600 to-emerald-500 bg-clip-text text-transparent">AB</span>
+            <span className="font-bold bg-gradient-to-r from-green-600 to-emerald-500 bg-clip-text text-transparent">ST</span>
           </div>
         </div>
       </div>

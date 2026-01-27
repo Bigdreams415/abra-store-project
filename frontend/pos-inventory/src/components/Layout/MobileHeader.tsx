@@ -59,7 +59,7 @@ const MobileHeader: React.FC<MobileHeaderProps> = ({ onMenuToggle }) => {
 
           <div className="flex items-center space-x-2">
             <div className="w-10 h-10 bg-gradient-to-r from-green-500 to-emerald-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold">AB</span>
+              <span className="text-white font-bold">ST</span>
             </div>
             <span className="text-lg font-bold text-green-700">
               Stop to Shop
@@ -74,7 +74,7 @@ const MobileHeader: React.FC<MobileHeaderProps> = ({ onMenuToggle }) => {
         >
           <div className="w-8 h-8 bg-gradient-to-r from-green-500 to-emerald-600 rounded-full flex items-center justify-center group-hover:from-green-600 group-hover:to-emerald-700 transition-all shadow-sm">
             <span className="text-white font-semibold text-xs">
-              {currentStore ? getInitials(currentStore.name) : 'AB'}
+              {currentStore ? getInitials(currentStore.name) : 'ST'}
             </span>
           </div>
         </button>

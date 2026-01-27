@@ -357,7 +357,7 @@ const DesktopHeader: React.FC = () => {
         <div className="flex items-center">
           <div className="flex items-center space-x-3">
             <div className="w-12 h-12 rounded-xl flex items-center justify-center shadow-sm bg-transparent hover:shadow-md transition-shadow">
-              <span className="font-bold text-xl bg-gradient-to-r from-green-600 to-emerald-500 bg-clip-text text-transparent">AB</span>
+              <span className="font-bold text-xl bg-gradient-to-r from-green-600 to-emerald-500 bg-clip-text text-transparent">ST</span>
             </div>
             <div>
               <h1 className="text-2xl font-bold text-green-700">Stop to Shop</h1>
@@ -407,7 +407,7 @@ const DesktopHeader: React.FC = () => {
             </div>
             <div className="w-10 h-10 rounded-full flex items-center justify-center group-hover:from-green-600 group-hover:to-emerald-700 transition-all shadow-sm bg-transparent">
               <span className="font-semibold text-sm bg-gradient-to-r from-green-600 to-emerald-500 bg-clip-text text-transparent">
-                {currentStore ? getInitials(currentStore.name) : 'AB'}
+                {currentStore ? getInitials(currentStore.name) : 'ST'}
               </span>
             </div>
           </button>
