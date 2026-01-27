@@ -360,7 +360,7 @@ const DesktopHeader: React.FC = () => {
               <span className="font-bold text-xl bg-gradient-to-r from-green-600 to-emerald-500 bg-clip-text text-transparent">AB</span>
             </div>
             <div>
-              <h1 className="text-2xl font-bold text-green-700">Abra Store</h1>
+              <h1 className="text-2xl font-bold text-green-700">Stop to Shop</h1>
               <p className="text-sm text-gray-600">Grocery Sales System</p>
             </div>
           </div>
@@ -603,7 +603,7 @@ const DesktopHeader: React.FC = () => {
                       value={newStore.name}
                       onChange={(e) => handleInputChange('name', e.target.value)}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all"
-                      placeholder="e.g., Abra Store - Main Branch"
+                      placeholder="e.g., Stop to Shop - Main Branch"
                     />
                   </div>
                   

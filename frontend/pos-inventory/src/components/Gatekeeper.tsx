@@ -124,7 +124,7 @@ const Gatekeeper: React.FC<GatekeeperProps> = ({ children }) => {
               }} 
             />
             <Typography variant="h6" sx={{ color: '#1B5E20', fontWeight: 'bold' }}>
-              Preparing Abra Store System...
+              Preparing Stop to Shop System...
             </Typography>
             <Typography variant="body2" sx={{ color: '#388E3C', mt: 1 }}>
               Your Grocery Store Management Solution
@@ -214,10 +214,10 @@ const Gatekeeper: React.FC<GatekeeperProps> = ({ children }) => {
                     backgroundClip: 'text',
                   }}
                 >
-                  Abra Store Access
+                  Stop to Shop Access
                 </Typography>
                 <Typography variant="body1" color="#5D4037">
-                  Enter the access code to continue to Abra Store Inventory System
+                  Enter the access code to continue to Stop to Shop Inventory System
                 </Typography>
               </Box>
 
@@ -299,7 +299,7 @@ const Gatekeeper: React.FC<GatekeeperProps> = ({ children }) => {
                   ) : (
                     <>
                       <Store sx={{ mr: 1 }} />
-                      Continue to Abra Store
+                      Continue to Stop to Shop
                     </>
                   )}
                 </Button>
@@ -322,14 +322,14 @@ const Gatekeeper: React.FC<GatekeeperProps> = ({ children }) => {
               }}>
                 <Typography variant="body2" color="#2E7D32">
                   <strong>📋 Note:</strong> Contact the store manager or administrator if you don't have the access code.
-                  This code ensures secure access to Abra Store's inventory and sales system.
+                  This code ensures secure access to Stop to Shop's inventory and sales system.
                 </Typography>
               </Box>
 
               {/* Footer */}
               <Box sx={{ mt: 3, pt: 2, borderTop: '1px solid #E0E0E0' }}>
                 <Typography variant="caption" color="#757575">
-                  Abra Store Inventory System • Grocery Inventory Management • Version 1.0
+                  Stop to Shop Inventory System • Grocery Inventory Management • Version 1.0
                 </Typography>
               </Box>
             </Paper>

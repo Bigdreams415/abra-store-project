@@ -93,7 +93,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activePage, setActivePage, onMobileIt
       <div className="p-4 border-t border-gray-100 bg-white">
         <div className="flex items-center justify-between">
           <div className="text-left">
-            <p className="text-sm font-medium text-gray-700">Abra Store Inventory</p>
+            <p className="text-sm font-medium text-gray-700">Stop to Shop</p>
             <p className="text-xs text-gray-500">© 2026 • v1.0.0</p>
           </div>
           <div className="w-10 h-10 rounded-lg flex items-center justify-center bg-transparent">

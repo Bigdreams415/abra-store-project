@@ -846,7 +846,7 @@ const PointOfSale: React.FC = () => {
             {/* Printable Receipt (hidden in main view) */}
             <div ref={receiptRef} className="hidden">
               <div className="header">
-                <div className="business-name">ABRA STORE</div>
+                <div className="business-name">Stop to Shop</div>
                 <div className="business-info">Your Reliable Grocery Store</div>
                 <div className="business-info">Fresh Products, Fair Prices</div>
                 <div className="business-info">Contact: +2340000000000</div>
@@ -901,7 +901,7 @@ const PointOfSale: React.FC = () => {
               <div className="footer">
                 <div>Quality Guaranteed</div>
                 <div>Valid receipt for exchange within 7 days</div>
-                <div>--- ABRA STORE ---</div>
+                <div>--- Stop to Shop ---</div>
               </div>
             </div>
 

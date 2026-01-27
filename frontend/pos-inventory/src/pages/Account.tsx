@@ -407,7 +407,7 @@ const Account: React.FC = () => {
                 Welcome, {user.username}!
               </Typography>
               <Typography variant="body1" color="text.secondary">
-                You are successfully logged in as Abra Store owner.
+                You are successfully logged in as Stop to Shop owner.
               </Typography>
             </Box>
 
@@ -419,7 +419,7 @@ const Account: React.FC = () => {
             <Typography variant="body2" color="text.secondary">
               Username: {user.username}<br/>
               User ID: {user.id}<br/>
-              Role: Abra Store Owner
+              Role: Stop to Shop Admin
             </Typography>
 
             <Button
@@ -588,7 +588,7 @@ const Account: React.FC = () => {
         <TabPanel value={tabValue} index={0}>
           <Box component="form" onSubmit={handleLogin}>
             <Typography variant={isMobile ? "h6" : "h5"} gutterBottom align="center">
-              Abra Store Admin Login
+              Stop to Shop Admin Login
             </Typography>
             <TextField
               fullWidth

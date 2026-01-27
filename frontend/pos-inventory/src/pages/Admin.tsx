@@ -96,7 +96,7 @@ const Admin: React.FC = () => {
           <h2 className="text-2xl font-bold text-gray-900 mb-3">Checking Authentication</h2>
           <p className="text-gray-600 mb-4">Verifying your admin session...</p>
           <div className="text-sm text-gray-600 px-4 py-2 rounded-lg inline-block">
-            Abra Store Admin Portal
+            Stop to Shop Admin Portal
           </div>
         </div>
       </div>
@@ -116,7 +116,7 @@ const Admin: React.FC = () => {
               </svg>
             </div>
             <h1 className="text-3xl font-bold text-gray-900 mb-3">Admin Access Granted</h1>
-            <p className="text-green-600 text-lg">Welcome to Abra Store Admin Portal</p>
+            <p className="text-green-600 text-lg">Welcome to Stop to Shop Admin Portal</p>
           </div>
 
           {/* Content */}
@@ -129,7 +129,7 @@ const Admin: React.FC = () => {
                 </svg>
               </div>
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">Full Administrative Access</h2>
-              <p className="text-gray-600 leading-relaxed max-w-2xl mx-auto text-lg">You now have complete access to manage Abra Store's operations, inventory, sales, and system configurations.</p>
+              <p className="text-gray-600 leading-relaxed max-w-2xl mx-auto text-lg">You now have complete access to manage Stop to Shop operations, inventory, sales, and system configurations.</p>
             </div>
 
             {/* Features Grid */}
@@ -218,7 +218,7 @@ const Admin: React.FC = () => {
                   <span className="font-bold text-gray-900">AB</span>
                 </div>
                 <div>
-                  <p className="text-sm font-medium text-gray-700">Abra Store Admin Portal</p>
+                  <p className="text-sm font-medium text-gray-700">Stop to Shop Admin Portal</p>
                   <p className="text-xs text-green-600">v1.0.0 • Secure Access</p>
                 </div>
               </div>
@@ -245,7 +245,7 @@ const Admin: React.FC = () => {
             <span className="text-3xl text-white">🔐</span>
           </div>
           <h1 className="text-3xl font-bold text-white mb-3">Admin Authentication</h1>
-          <p className="text-green-100">Abra Store Management Portal</p>
+          <p className="text-green-100">Stop to Shop Management Portal</p>
         </div>
 
         {/* Login Form */}
@@ -337,7 +337,7 @@ const Admin: React.FC = () => {
                 <span className="font-bold text-sm bg-gradient-to-r from-green-600 to-emerald-500 bg-clip-text text-transparent">AB</span>
               </div>
               <p className="text-sm font-medium text-gray-700">
-                Abra Store POS System
+                Stop to Shop System
               </p>
             </div>
             <div className="flex items-center space-x-2 text-green-600">

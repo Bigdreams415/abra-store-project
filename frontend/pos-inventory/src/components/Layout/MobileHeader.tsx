@@ -62,7 +62,7 @@ const MobileHeader: React.FC<MobileHeaderProps> = ({ onMenuToggle }) => {
               <span className="text-white font-bold">AB</span>
             </div>
             <span className="text-lg font-bold text-green-700">
-              Abra Store
+              Stop to Shop
             </span>
           </div>
         </div>
