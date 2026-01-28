@@ -33,7 +33,7 @@ app.use(cors({
     if (!origin) return callback(null, true);
     
     const allowedOrigins = [
-      'https://abra-store-project.vercel.app'
+      'https://stop2shop-project.vercel.app'
     ];
     
     if (allowedOrigins.includes(origin)) {
@@ -93,7 +93,7 @@ app.use(helmet({
 app.use((req, res, next) => {
   const origin = req.headers.origin;
   const allowedOrigins = [
-    'https://abra-store-project.vercel.app'
+    'https://stop2shop-project.vercel.app'
   ];
   
   if (origin && allowedOrigins.includes(origin)) {
@@ -145,7 +145,7 @@ async function startServer() {
         timestamp: new Date().toISOString(),
         cors: 'enabled',
         origins: [
-          'https://sales-inventory-system-fawn.vercel.app',
+          'https://stop2shop-project.vercel.app',
           'http://localhost:3000',
           'http://localhost:3001'
         ]
