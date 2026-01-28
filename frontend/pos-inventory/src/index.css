@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 /* Elegant Green Scrollbar */
 .custom-scrollbar {
   scrollbar-width: thin;
