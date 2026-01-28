@@ -29,7 +29,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activePage, setActivePage, onMobileIt
   };
 
   return (
-    <aside className="w-64 bg-white border-r border-gray-200 h-full flex flex-col shadow-lg">
+    <aside className="w-64 bg-white border-r border-gray-200 h-screen min-h-0 flex flex-col shadow-lg">
       {/* Close Button - Mobile Only */}
       <div className="lg:hidden p-4 border-b border-gray-100 flex justify-end bg-white">
         <button
@@ -52,7 +52,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activePage, setActivePage, onMobileIt
       </div>
 
       {/* Navigation */}
-      <nav className="flex-1 py-6 px-3">
+      <nav className="flex-1 py-6 px-3 overflow-y-auto sidebar-scrollbar">
         <div className="mb-4 px-3">
           <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wider">Navigation</h3>
         </div>
